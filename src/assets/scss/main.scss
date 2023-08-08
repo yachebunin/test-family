@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+@mixin montserrat-normal-16 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+@mixin montserrat-normal-14 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+@mixin montserrat-normal-13 {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@mixin touchable {
+    transform: translateY(-1px);
+    cursor: pointer;
+}
+
+$colors-gray: rgba(17, 17, 17, 0.48);
+$colors-black: #000000;
+$colors-white: #ffffff;
+$colors-second-black: #111111;
+$colors-gray-m: #FAFAFA;
+$colors-gray-l: #F1F1F1;
+$colors-primary: #01A7FD;
